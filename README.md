@@ -1,23 +1,13 @@
 #HTML 5 Reset x Wordpress x Yaml.de
 
-V4 .
+La version sans Gulp de [mon starter theme](https://github.com/jhouedanou/Html5ResetxMaterializeCSS) pour Wordpress. 
 
-Un thème vierge pour Wordpress, basé sur html5reset et [Yaml.de](http://www.yaml.de/)
+Gulp part certes de bons sentiments et simplifie grandement le workflow, mais son utilisation quotidienne est particulièrement frustrante et lourde. 
 
-# V.4
-installez directement vos packages avec bower. Les fichiers sont copiés dans le dossier js, vous pouvez modifier cette destination en modifiant le fichier .bowerrc
-
-# V.3
-Mise à jour avec Gulp, et plus précisément
-
-* gulp-sass
-* gulp-uglify : pour minifier les fichiers dans le dossier js
-* gulp-imagemin : minifie les images - à lancer avec **gulp images** 
-* gulp browsersync : rechargement automatique lors de la modification des fichiers php et js , ainsi que lors de l'ajout d'images dans le dossier **images/src**
-
-# important 
-
-* Mettre à jour la ligne **84** du fichier **gulpfile.js** avec l'adresse de votre installation locale de Wordpress
-* Utilisez Emmet Livestyle ([pourquoi pas ?](http://livestyle.io/)) pour une édition bidirectionnelle des fichiers .scss
+Ce thème est pour ceux et celles qui préfèrent des outils externes, tels 
+* Emmet Livestyle ([disponible ic ](http://livestyle.io/)) pour une édition bidirectionnelle des fichiers .scss;
+* et [LiveReloadX ](http://nitoyon.github.io/livereloadx/)pour recharger les pages;
+* [Compass.app](http://compass.kkbox.com/) pour compiler les fichiers scss.
+ 
 
 Jean Luc Houedanou
